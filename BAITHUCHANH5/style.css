@@ -1,0 +1,56 @@
+
+        body {
+            font-family: Arial;
+        }
+        .top {
+            background: black;
+            color: white;
+            padding: 10px;
+        }
+
+        .top a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+        .box {
+            width: 90%;
+            margin: 20px auto;
+            border: 2px solid blue;
+            padding: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border-bottom: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        .add {
+            background: rgb(61, 61, 219);
+            color: white;
+            float:right;
+        }
+
+        .edit {
+            background: gold;
+            
+        }
+
+        .delete {
+            background: red;
+            color: white;
+             float:right;     
+        }
+
+        .ok{
+            float:right;
+        }
+        .td{
+            display:flex;
+            gap:6px;
+        }
