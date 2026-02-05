@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Form</title>
+    <link rel="stylesheet" href="style.css"/>
+
+
+</head>
+
+<body>
+
+    <form action="signin" method="get">
+
+        <table >
+
+            <tr>
+                <td  colspan="2"><h3>Basic Info</h3></td>
+            </tr>
+            
+
+
+            <tr>
+                <td>Employee ID</td>
+                <td><input type="number" value="9" placehoder="number"></td>
+            </tr>
+
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" value="Dodsworth"></td>
+            </tr>
+
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" value="Anne"></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="g"> Male<br>
+                    <input type="radio" name="g"> Female<br>
+                    <input type="radio" name="g" checked> XXX<br>
+                    <input type="radio" name="g"> ZZZ
+                </td>
+            </tr>
+
+            <tr>
+                <td>Title</td>
+                <td><input type="text" value="Sales Representative"></td>
+            </tr>
+
+            <tr>
+                <td>Suffix</td>
+                <td><input type="text" value="Ms."></td>
+            </tr>
+
+            <tr>
+                <td>BirthDate</td>
+                <td><input type="datetime-local" value="1969-07-02T00:00"></td>
+            </tr>
+
+            <tr>
+                <td>HireDate</td>
+                <td><input type="datetime-local" value="1994-11-15T00:00"></td>
+            </tr>
+
+            <tr>
+                <td>SSN (if applicable)</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Reports To</td>
+                <td>
+                    <select>
+                        <option>Buchanan</option>
+                        <option>NewYork</option>
+                        <option>LonDon</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><h3>Contact Info</h3></td>
+            </tr>
+            
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="name@example.com"></td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td><input type="text" value="7 Houndstooth Rd."></td>
+            </tr>
+
+            <tr>
+                <td>City</td>
+                <td><input type="text" value="London"></td>
+            </tr>
+
+            <tr>
+                <td>Region</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Postal Code</td>
+                <td><input type="text" value="WG2 7LT"></td>
+            </tr>
+
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select>
+                        <option>Russian Federation</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>US Home Phone</td>
+                <td><input type="text" value="(234)234-2342"></td>
+            </tr>
+
+            <tr>
+                <td>Photo</td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><h3>Optional Info</h3></td>
+            </tr>
+
+            <tr>
+                <td>Notes</td>
+                <td>
+                    <textarea>
+                        Anne has a BA degree in English from St. Lawrence College.
+                            She is fluent in French and German ZZZ
+                    </textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Preferred Shift</td>
+                <td>
+                    <input type="checkbox"> Regular<br>
+                    <input type="checkbox" checked> Gravy Yard
+                </td>
+            </tr>
+
+            <tr>
+                <td>Active?</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+
+            <tr>
+                <td>Are you human?</td>
+                <td>
+                    <b>T I D A W O</b><br>
+                    <input type="text" placeholder="Click to change">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Cancel</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
