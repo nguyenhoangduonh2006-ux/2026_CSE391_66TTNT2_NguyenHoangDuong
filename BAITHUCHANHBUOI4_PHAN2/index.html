@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Register</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"
+        type="text/javascript"></script>
+    
+
+    <style>
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form id="demoForm">
+
+        <label>Họ và tên</label><br>
+        <input type="text" name="fullname">
+        <br><br>
+
+        <label>Email</label><br>
+        <input type="text" name="email">
+        <br><br>
+
+        <label>Số điện thoại</label><br>
+        <input type="text" name="phone">
+        <br><br>
+
+        <label>Mật khẩu</label><br>
+        <input type="password" name="password" id="password">
+        <br><br>
+
+        <label>Xác nhận mật khẩu</label><br>
+        <input type="password" name="re-password">
+        <br><br>
+
+        <label>Giới tính</label><br>
+        <input type="radio" name="gender" value="nam"> Nam
+        <input type="radio" name="gender" value="nu"> Nữ
+        <br><br>
+
+        <label>
+            <input type="checkbox" name="terms"> Tôi đồng ý điều khoản
+        </label>
+        <br><br>
+
+        <button type="submit">Đăng ký</button>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

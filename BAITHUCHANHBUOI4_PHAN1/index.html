@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 6 - Quản lý sinh viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-wrapper page-wrapper-wide">
+        <h2 class="page-title">Quản lý sinh viên</h2>
+        <div style="margin:10px 0;">
+            <input type="text" id="searchInput" placeholder="Tìm tên sinh viên...">
+
+            <select id="filterSelect">
+                <option value="all">Tất cả</option>
+                <option value="Giỏi">Giỏi</option>
+                <option value="Khá">Khá</option>
+                <option value="Trung bình">Trung bình</option>
+                <option value="Yếu">Yếu</option>
+            </select>
+        </div>
+        <div class="form-section">
+            <div class="form-group">
+                <label for="inputStudentName">Họ tên:</label>
+                <input type="text" id="inputStudentName" placeholder="Nguyễn Văn A">
+            </div>
+            <div class="form-group">
+                <label for="inputStudentDiem">Điểm:</label>
+                <input type="number" id="inputStudentDiem" placeholder="Nhập điểm">
+            </div>
+            <button class="btn-primary" id="btnAddStudent">+ Thêm</button>
+        </div>
+        <table class="data-table" id="studentTable">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Họ tên</th>
+                    <th id="sortScore">Điểm</th>
+                    <th>Xếp loại</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody id="studentTableBody">
+                <tr>
+                    <td>1</td>
+                    <td>Trần Thị B</td>
+                    <td>9</td>
+                    <td>Giỏi</td>
+                    <td><button class="btn-delete">Xoá</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Lê Văn C</td>
+                    <td>8</td>
+                    <td>Khá</td>
+                    <td><button class="btn-delete">Xoá</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="studentStats">
+            Tổng sinh viên: 0 | Điểm trung bình: 0
+        </p>
+    </div>
+    <script src="student.js"></script>
+</body>
+
+</html>
